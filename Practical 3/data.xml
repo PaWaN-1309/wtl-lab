@@ -1,0 +1,38 @@
+<!DOCTYPE students SYSTEM "data.dtd">
+<students>
+    <student>
+        <id>1</id>
+        <name>Aryon Potil</name>
+        <age>20</age>
+        <department>Computer Science</department>
+        <grade>A</grade>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Horsh Potil</name>
+        <age>21</age>
+        <department>Information Technology</department>
+        <grade>B</grade>
+    </student>
+    <student>
+        <id>3</id>
+        <name>Aaron Sultanpure</name>
+        <age>22</age>
+        <department>Electronics</department>
+        <grade>A</grade>
+    </student>
+    <student>
+        <id>4</id>
+        <name>Amar Hacker</name>
+        <age>20</age>
+        <department>Mechanical</department>
+        <grade>B+</grade>
+    </student>
+    <student>
+        <id>5</id>
+        <name>Samii</name>
+        <age>23</age>
+        <department>Civil</department>
+        <grade>C</grade>
+    </student>
+</students>

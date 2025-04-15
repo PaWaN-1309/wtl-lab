@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cars>
+    <Car>
+        <Make>Toyota</Make>
+        <Model>Corolla</Model>
+        <Year>2020</Year>
+        <Color>White</Color>
+        <Price>20000</Price>
+    </Car>
+    <Car>
+        <Make>Honda</Make>
+        <Model>Civic</Model>
+        <Year>2019</Year>
+        <Color>Black</Color>
+        <Price>22000</Price>
+    </Car>
+    <Car>
+        <Make>Ford</Make>
+        <Model>Mustang</Model>
+        <Year>2021</Year>
+        <Color>Red</Color>
+        <Price>35000</Price>
+    </Car>
+    <Car>
+        <Make>Chevrolet</Make>
+        <Model>Malibu</Model>
+        <Year>2018</Year>
+        <Color>Blue</Color>
+        <Price>18000</Price>
+    </Car>
+    <Car>
+        <Make>BMW</Make>
+        <Model>3 Series</Model>
+        <Year>2022</Year>
+        <Color>Gray</Color>
+        <Price>45000</Price>
+    </Car>
+</Cars>
