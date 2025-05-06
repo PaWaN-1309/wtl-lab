@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script>
+        function validateForm() {
+            const name = document.forms["myForm"]["name"].value;
+            const email = document.forms["myForm"]["email"].value;
+            const age = document.forms["myForm"]["age"].value;
+
+            if (name === "") {
+                alert("Name must be filled out");
+                return false;
+            }
+            if (email === "") {
+                alert("Email must be filled out");
+                return false;
+            }
+            if (age === "" || isNaN(age) || age <= 0) {
+                alert("Please enter a valid age");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Form Validation Example</h1>
+    <form name="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
+</form>
